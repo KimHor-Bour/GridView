@@ -1,4 +1,4 @@
-package com.android.grid.gridview;
+package com.android.grid;
 
 import android.os.Bundle;
 import android.widget.GridView;
@@ -6,8 +6,9 @@ import android.widget.GridView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.grid.R;
+import com.android.grid.gridview.ImageAdapterTap1;
 
-public class MainActivity extends AppCompatActivity {
+public class gridView extends AppCompatActivity {
     GridView gridView;
 
     @Override
